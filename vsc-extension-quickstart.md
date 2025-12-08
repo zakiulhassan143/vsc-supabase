@@ -1,41 +1,39 @@
-# Supabase — VS Code Theme
+# Supabase VS Code Theme
 
-A soft, modern, eye-friendly **light theme for Visual Studio Code** based on natural greens and clean neutrals.
-
-Designed for creators who want clarity, comfort, and color harmony without harsh contrast.
-
-Includes:
-
-✅ **Supabase Light Color Theme**  
-✅ Optimized syntax highlighting  
-✅ Consistent UI palette inspired by natural tones
+A clean, minimal, and modern VS Code theme inspired by [Supabase](https://supabase.com).  
+Includes both **Light** and **Dark** variants for comfortable coding sessions.
 
 ---
 
-## ✨ Features
+## Demo
 
-- 🌱 **Soft green accent** for focus without strain
-- 🎨 Balanced syntax highlighting using:
-  - Blues for keywords
-  - Green for strings & functions
-  - Purples for constants
-  - Amber for methods
-- 🧠 Hand-tuned contrast - perfect for long coding sessions
-- ⚡ Fast & minimal - pure JSON (no dependencies)
+# Light Theme
+![Supabase Light Theme Demo](preview/light-demo.gif)
+
+# Dark Theme
+![Supabase Dark Theme Demo](preview/dark-demo.gif)
 
 ---
 
-## 🎨 Color Palette
+## ⚡ Features
 
-| Role | Hex |
-|------|-----|
-| Primary | `#72e3ad` |
-| Editor BG | `#fcfcfc` |
-| Text FG | `#171717` |
-| Comment | `#525252` |
-| Keyword | `#3b82f6` |
-| Constant | `#8b5cf6` |
-| Function | `#f59e0b` |
-| Type | `#10b981` |
-| Error | `#ca3214` |
-| Borders | `#dfdfdf` |
+- Minimal and modern design  
+- Light and Dark variants  
+- Syntax highlighting with soft, readable colors  
+- Polished button hover effects  
+- Focused on developer comfort and clarity  
+
+---
+
+## 💻 Installation
+
+1. Open VS Code  
+2. Go to Extensions → `Ctrl + Shift + X`  
+3. Search for **Supabase**  
+4. Install and activate your favorite variant (Light or Dark)
+
+Or install manually via `.vsix` package:
+
+```bash
+vsce package
+code --install-extension supabase-0.0.1.vsix
