@@ -1,0 +1,33 @@
+{
+  "name": "inspo-supabase",
+  "displayName": "Ispired by Supabase",
+  "publisher": "zakiuhh",
+  "description": "A Clean, minimal and modern Supabase inspired theme.",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakiulhassan143/vsc-supabase.git"
+  },
+
+  "contributes": {
+    "themes": [
+      {
+        "label": "Supabase Light",
+        "uiTheme": "vs",
+        "path": "./themes/supabase-light.json"
+      },
+      {
+        "label": "Supabase Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/supabase-dark.json"
+      }
+    ]
+  }
+}
+
