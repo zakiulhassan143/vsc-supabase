@@ -29,7 +29,7 @@ Includes both **Light** and **Dark** variants for comfortable coding sessions.
 
 1. Open VS Code  
 2. Go to Extensions → `Ctrl + Shift + X`  
-3. Search for **Supabase**  
+3. Search for **Ispired by Supabase**  
 4. Install and activate your favorite variant (Light or Dark)
 
 Or install manually via `.vsix` package:
